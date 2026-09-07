@@ -38,7 +38,9 @@ empties or after `DJ_IDLE_LEAVE_SECONDS` with nothing queued.
 
 | Source | Channels | Support them |
 |---|---|---|
-| **[SomaFM](https://somafm.com)** | Groove Salad, Drone Zone, Space Station Soma, DEF CON, Lush, Beat Blender, Fluid, Metal Detector, The Trip, Synphaera | listener-supported, commercial-free — **[donate to SomaFM](https://somafm.com/support/)** |
+| **[THE BASE](https://thebase.sc)** | Star Citizen spacewave radio (`thebase`) | fan-run — support via their site |
+| **[Space Travel Radio](https://www.spacetravelradio.de)** | Star Citizen ambient / chillout / soundtrack (`str`) | non-commercial fan project |
+| **[SomaFM](https://somafm.com)** | Mission Control, Deep Space One, Space Station Soma, Drone Zone, Synphaera, Groove Salad, Vaporwaves, DEF CON, Beat Blender, The Trip, Lush, Fluid, Metal Detector | listener-supported, commercial-free — **[donate to SomaFM](https://somafm.com/support/)** |
 | **[Nightride FM](https://nightride.fm)** | Nightride, Darksynth | **[support Nightride FM](https://nightride.fm/support)** |
 | **[FluxFM](https://www.fluxfm.de)** | Chillhop / lofi | — |
 
@@ -131,7 +133,7 @@ Built on the work of:
 | [**FFmpeg**](https://ffmpeg.org) | decodes/transcodes every source to PCM (external binary) | LGPL-2.1+ / GPL depending on build |
 | [**yt-dlp**](https://github.com/yt-dlp/yt-dlp) | resolves search terms and links to a stream (external binary) | Unlicense (public domain) |
 | [**Fluxer**](https://github.com/fluxerapp/fluxer) | the chat platform + voice protocol this bot speaks | AGPL-3.0 |
-| [**SomaFM**](https://somafm.com), [**Nightride FM**](https://nightride.fm), [**FluxFM**](https://www.fluxfm.de) | the built-in radio stations — please [support them](#radio-stations) | their own |
+| [**THE BASE**](https://thebase.sc), [**Space Travel Radio**](https://www.spacetravelradio.de), [**SomaFM**](https://somafm.com), [**Nightride FM**](https://nightride.fm), [**FluxFM**](https://www.fluxfm.de) | the built-in radio stations — please [support them](#radio-stations) | their own |
 
 Not affiliated with any of the above.
 
