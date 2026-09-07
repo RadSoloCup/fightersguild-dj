@@ -1,0 +1,15 @@
+# Add this service to the Fluxer compose project (or run it standalone).
+#
+# host networking: the bot connects to LiveKit the same way a desktop client
+# does. LiveKit here advertises the external playit IP, and a bridged container
+# on this host usually can't hairpin to it — host mode side-steps that. If you
+# still see the bot join the channel but stay silent, set
+# LIVEKIT_ENDPOINT_OVERRIDE (see .env.example).
+services:
+  dj:
+    build: https://github.com/RadSoloCup/fightersguild-dj.git#main
+    container_name: fightersguild-dj
+    restart: unless-stopped
+    network_mode: host
+    env_file: ./dj.env
+    # No volumes needed — the bot keeps no state.
