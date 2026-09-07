@@ -36,9 +36,14 @@ empties or after `DJ_IDLE_LEAVE_SECONDS` with nothing queued.
 
 ### Radio stations
 
-SomaFM (Groove Salad, Drone Zone, Space Station Soma, DEF CON, Lush, Beat
-Blender, Fluid, Metal Detector, The Trip, Synphaera), Nightride FM +
-Darksynth, and a lofi stream. Add your own with `DJ_EXTRA_STATIONS`.
+| Source | Channels | Support them |
+|---|---|---|
+| **[SomaFM](https://somafm.com)** | Groove Salad, Drone Zone, Space Station Soma, DEF CON, Lush, Beat Blender, Fluid, Metal Detector, The Trip, Synphaera | listener-supported, commercial-free — **[donate to SomaFM](https://somafm.com/support/)** |
+| **[Nightride FM](https://nightride.fm)** | Nightride, Darksynth | **[support Nightride FM](https://nightride.fm/support)** |
+| **[FluxFM](https://www.fluxfm.de)** | Chillhop / lofi | — |
+
+Add your own with `DJ_EXTRA_STATIONS`. If you run this bot, please chip in to the
+stations you play — SomaFM in particular runs entirely on listener donations.
 
 ---
 
@@ -116,7 +121,24 @@ Every knob lives in the environment — see [`.env.example`](.env.example).
 
 ---
 
+## Credits
+
+Built on the work of:
+
+| | | License |
+|---|---|---|
+| [**LiveKit**](https://livekit.io) / [`@livekit/rtc-node`](https://github.com/livekit/node-sdks) | WebRTC media transport — the bot publishes audio through it | Apache-2.0 |
+| [**FFmpeg**](https://ffmpeg.org) | decodes/transcodes every source to PCM (external binary) | LGPL-2.1+ / GPL depending on build |
+| [**yt-dlp**](https://github.com/yt-dlp/yt-dlp) | resolves search terms and links to a stream (external binary) | Unlicense (public domain) |
+| [**Fluxer**](https://github.com/fluxerapp/fluxer) | the chat platform + voice protocol this bot speaks | AGPL-3.0 |
+| [**SomaFM**](https://somafm.com), [**Nightride FM**](https://nightride.fm), [**FluxFM**](https://www.fluxfm.de) | the built-in radio stations — please [support them](#radio-stations) | their own |
+
+Not affiliated with any of the above.
+
 ## License
 
-For guild use. The Fluxer platform it connects to is
-[GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0.html).
+Copyright © 2026 Fighters Guild. Licensed under the
+[GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0.html) — see [`LICENSE`](LICENSE).
+
+If you run a modified version of this bot as a service, the AGPL requires you to
+make your source available to its users.
