@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Music / internet-radio bot for the Fighters Guild Fluxer server — joins voice and plays what you ask for.",
+  "description": "Music / internet-radio bot for the Fighters Guild Fluxer server. Joins voice and plays what you ask for.",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"

@@ -2,7 +2,7 @@
 #
 # host networking: the bot connects to LiveKit the same way a desktop client
 # does. LiveKit here advertises the external playit IP, and a bridged container
-# on this host usually can't hairpin to it — host mode side-steps that. If you
+# on this host usually can't hairpin to it, host mode side-steps that. If you
 # still see the bot join the channel but stay silent, set
 # LIVEKIT_ENDPOINT_OVERRIDE (see .env.example).
 services:
@@ -12,4 +12,4 @@ services:
     restart: unless-stopped
     network_mode: host
     env_file: ./dj.env
-    # No volumes needed — the bot keeps no state.
+    # No volumes needed, the bot keeps no state.
