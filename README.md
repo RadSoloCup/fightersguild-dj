@@ -151,3 +151,7 @@ Copyright &copy; 2026 Fighters Guild. Licensed under the
 
 If you run a modified version of this bot as a service, the AGPL requires you to
 make your source available to its users.
+
+---
+
+Made in Canada 🇨🇦
